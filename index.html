@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- <script defer src="js/helloWorld.js"></script> -->
+    <!-- <script>
+      alert("Hello World");
+    </script> -->
+  </head>
+  <body>
+    <h1 id="h">JS TUTORIAL</h1>
+    <!-- <script>
+      alert("Hello World 1");
+    </script> -->
+
+    <!--All JS links are start from here -->
+
+    <!-- <script src="js/helloWorld.js"></script> -->
+    <!-- <script src="js/statement.js"></script> -->
+    <!-- <script src="js/variable.js"></script> -->
+    <!-- <script src="js/operator.js"></script> -->
+    <!-- <script src="js/dataType.js"></script> -->
+    <!-- <script src="js/logicOp.js"></script> -->
+    <!-- <script src="js/ternaryOp.js"></script> -->
+    <!-- <script src="js/Switch.js"></script> -->
+    <!-- <script src="js/Loop.js"></script> -->
+    <!-- <script src="js/alert&confirmFun.js"></script> -->
+    <!-- <script src="js/dtConversion.js"></script> -->
+    <!-- <script src="js/strManipulation.js"></script> -->
+    <!-- <script src="js/Array.js"></script> -->
+    <!-- <script src="js/operationsOnArray.js"></script> -->
+    <!-- <script src="js/Function.js"></script> -->
+    <!-- <script src="js/paraAndArgu.js"></script> -->
+    <!-- <script src="js/ReturnInFun.js"></script> -->
+    <!-- <script src="js/Global&LocalVar.js"></script> -->
+    <!-- <script src="js/anonymousFun.js"></script> -->
+    <!-- <script src="js/thirdParty.js"></script> -->
+    <!-- <script src="js/Object.js"></script> -->
+    <!-- <script src="js/methodInFun.js"></script> -->
+    <!-- <script src="js/thisInObject.js"></script> -->
+    <!-- <script src="js/mathObject.js"></script> -->
+    <!-- <script src="js/randomNum.js"></script> -->
+    <!-- <script src="js/dateObject.js"></script> -->
+    <!-- <script src="js/newKeyword.js"></script> -->
+    <!-- <script src="js/gettersSetters.js"></script> -->
+    <!-- <script src="js/objConstructorFun.js"></script> -->
+    <!-- <script src="js/nestedObj.js"></script> -->
+    <!-- <script src="js/Hoisting.js"></script> -->
+
+    <!--Using getElementById HTML -->
+
+    <!-- <ul>
+      <li>list 1</li>
+      <li id="first">list 2</li>
+      <li>list 3</li>
+    </ul>
+    <script>
+      let elm = document.getElementById("first");
+      elm.innerHTML = "<p>Hello</p>";
+      console.log(elm.innerHTML);
+    </script> -->
+
+    <!-- <ul>
+      <li class="cl pi">list 1</li>
+      <li id="first">list 2</li>
+      <li class="cl">list 3</li>
+    </ul>
+    <script>
+      let elm = document.getElementById("first");
+      let elm1 = document.getElementsByClassName("cl pi");
+
+      for (let i = 0; i < elm1.length; i++) {
+        elm1[i].innerHTML = "<p> HELLO </P>";
+      }
+
+      elm.innerHTML = "<p> Hello </p>";
+      console.log(elm1.innerHTML);
+      console.log(elm.innerHTML);
+    </script> -->
+
+    <!-- Using element by TagName -->
+
+    <!-- <ul>
+      <li class="cl pi">list 1</li>
+      <li id="first">list 2</li>
+      <li class="cl">list 3</li>
+    </ul>
+
+    <h2>heading 1</h2>
+    <p>para 1</p>
+    <h2>heading 2</h2>
+    <p>para 2</p>
+    <h2>heading 3</h2>
+    <p>para 3</p>
+
+    <script>
+      let elm = document.getElementsByTagName("h2");
+      for (let i = 0; i < elm.length; i++) {
+        elm[i].innerHTML = "Hello";
+      }
+      console.log(elm);
+    </script>
+
+    <!-- <ul>
+      <li class="cl pi">list 1</li>
+      <li id="first">list 2</li>
+      <li class="cl">list 3</li>
+    </ul>
+
+    <h2>heading 1</h2>
+    <div id="d">
+      <p>para 1</p>
+      <h2>heading 2</h2>
+      <p>para 2</p>
+      <h2>heading 3</h2>
+      <p>para 3</p>
+    </div>
+
+    <script>
+      let div1 = document.getElementById("d");
+      let elm = div1.getElementsByTagName("h2");
+      for (let i = 0; i < elm.length; i++) {
+        elm[i].innerHTML = "Hello";
+      }
+      console.log(elm);
+    </script> -->
+
+    <!-- Query Selector -->
+
+    <!-- <h2 class="intro">heading 1</h2>
+    <div id="d">
+      <p class="intro">para 1</p>
+      <h2 class="intro">heading 2</h2>
+      <p>para 2</p>
+      <h2>heading 3</h2>
+      <p class="intro">para 3</p>
+    </div>
+
+    <script>
+      let elm = document.querySelectorAll("p.intro");
+      elm.innerHTML="Hello";
+      console.log(elm);
+
+      for (let i = 0; i < elm.length; i++) {
+        elm[i].innerHTML = "Hello";
+      }
+    </script> -->
+
+    <!-- Traversing elements  -->
+
+    <!-- <h2>heading 1</h2>
+    <ul>
+      <li id="intro">list 1</li>
+      <li>list 2</li>
+      <li>list 3</li>
+    </ul>
+
+    <ul>
+      <li>list a</li>
+      <li>list b</li>
+      <li>list c</li>
+    </ul>
+
+    <script>
+      let elm = document.getElementById("intro");
+      let prt = elm.parentElement;
+      prt.innerHTML = "hello";
+      console.log(prt);
+    </script> -->
+
+    <!-- <h2>heading 1</h2>
+    <ul id="intro">
+      <li>list 1</li>
+      <li>list 2</li>
+      <li>list 3</li>
+    </ul>
+
+    <ul>
+      <li>list a</li>
+      <li>list b</li>
+      <li>list c</li>
+    </ul>
+
+    <script>
+      let elm = document.getElementById("intro");
+      let node = elm.lastElementChild;
+      let node1 = elm.children;
+
+      console.log(node);
+    </script> -->
+
+    <!-- <h2>heading 1</h2>
+    <ul>
+      <li>list 1</li>
+      <li id="intro">list 2</li>
+      <li>list 3</li>
+    </ul>
+
+    <ul>
+      <li>list a</li>
+      <li>list b</li>
+      <li>list c</li>
+    </ul>
+
+    <script>
+      let elm = document.getElementById("intro");
+      let node = elm.previousElementSibling;
+      console.log(node);
+    </script> -->
+
+    <!-- Create and Append element -->
+
+    <!-- <h2>heading 1</h2>
+    <div id="intro">
+      <p>Hello this is a p tag</p>
+    </div>
+
+    <script>
+      let elm = document.getElementById("intro");
+      let h1 = document.createElement("h1");
+      h1.className = "try pi";
+      h1.id = "htag";
+      let text = document.createTextNode("This is h1 tag");
+      h1.appendChild(text);
+      elm.appendChild(h1);
+    </script> -->
+
+    <!-- <h2>heading 1</h2>
+    <div id="intro">
+      <p>Hello this is a p tag</p>
+    </div>
+
+    <script>
+      let elm = document.getElementById("intro");
+      let h1 = document.createElement("h1");
+
+      h1.className = "try pi";
+      h1.id = "htag";
+
+      let txt = document.createTextNode("This is h1 tag");
+      h1.appendChild(txt);
+      document.body.appendChild(h1);
+    </script> -->
+
+    <!-- <h2>heading 1</h2>
+    <div id="intro">
+      <p id="p1">Hello this is a p tag</p>
+    </div>
+
+    <script>
+      let elm = document.getElementById("intro");
+      let h1 = document.createElement("h1");
+
+      h1.className = "try pi";
+      h1.id = "htag";
+
+      h1.textContent = "conent added";
+      document.body.appendChild(h1);
+
+      let para = document.getElementById("p1");
+      console.log(para.textContent);
+    </script> -->
+
+    <ul id="list">
+      <li>list 1</li>
+      <li>list 2</li>
+      <li>list 3</li>
+      <li>list 4</li>
+    </ul>
+
+    <script>
+      let lst = document.getElementById("list");
+      let item = document.createElement("li");
+    </script>
+  </body>
+</html>
